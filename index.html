@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>Thanh Tran Portfolio </title>
+</head>
+<body>
+
+<!--NAVIGATION-->
+<div class="w3-top">
+    <div class="w3-bar w3-black">
+        <a href="index.html"><span class="branding w3-bar-item w3-mobile">Thanh Tran</span></a>
+        <span class="w3-right w3-mobile">
+            <a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+            <a href="skills.html" class="w3-bar-item w3-button w3-mobile">Skills</a>
+            <a href="projects.html" class="w3-bar-item w3-button w3-mobile">Projects</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-mobile">Contact</a>
+        </span>
+    </div>  
+</div>
+
+<!--SHOWCASE-->
+
+<section class="showcase">
+    <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow w3-animate-opacity">Welcome to My Portfolio</h1>
+        <hr>
+        <p class="w3-animate-opacity">I'm Thanh Tran
+            student of Haaga-Helia UAS,
+            on my way becoming an UI designer.
+        </p>
+        <img src="./img/thanh-avatar.png" alt="thanh-tran">
+    </div>
+</section>
+
+<!--SKILLS-->
+
+<section class="section w3-black w3-hover-opacity">
+    <a href="skills.html">
+    <div class="w3-container w3-center">
+        <i class="fa fa-book"></i>
+        <h2>Skills</h2>
+        <p>Click to know more about me!</p>
+    </div>
+    </a>
+</section>
+
+
+
+
+<!--PROJECTS-->
+
+
+<section class="section w3-white w3-hover-opacity">
+    <a href="projects.html">
+    <div class="w3-container w3-center">
+        <i class="fa fa-cog"></i>
+        <h2>Projects</h2>
+        <p>I have done some UI designs, usability tests, 3D Modeling and Printing.</p>
+    </div>
+    </a>    
+</section>
+
+<!--CONTACT HEADING-->
+
+<section id="contact" class="section w3-black">
+    <div class="w3-container w3-center">
+        <h2 class="w3-text-shadow">CONTACT</h2>
+        <hr>
+    </div>
+
+</section>
+
+<!--CONTACT ITEMS-->
+
+<section class="section w3-black">
+    <div class="w3-container w3-center">
+        <div class="w3-row">
+            <a href="https://www.linkedin.com/in/tran-thanh-2900b31a0/">
+            <div class="w3-col m4 w3-hover-opacity">
+                <i class="fa fa-linkedin w3-padding-small w3-round-xlarge "></i>
+                <h3>Linkedin</h3>
+            </div>
+            </a>
+
+            <a href="https://github.com/tranthanhvi">
+            <div class="w3-col m4 w3-hover-opacity">
+                <i class="fa fa-github w3-padding-small w3-round-xlarge "></i>
+                <h3>Github</h3>
+            </div>
+            </a>
+            <div class="w3-col m4">
+                <i class="fa fa-paper-plane w3-padding-small w3-round-xlarge "></i>
+                <h3>thanhtran260897@gmail.com</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    function accFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</body>
+</html>
