@@ -7,8 +7,8 @@
 .showcase {
     background: url('./img/splash-bnw.png') no-repeat;
     background-position: center;
-    height: 600px;
-    padding: 140px 100px;
+    height: 700px;
+    padding: 170px 100px;
     color: #e7decc;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .showcase img{
-    width: 150px;
+    width: 180px;
     height: auto;
     border-radius: 100%;
     padding:0;
